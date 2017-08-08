@@ -10,12 +10,13 @@ import {
 import Pedra from './img/pedra.png';
 import Papel from './img/papel.png';
 import Tesoura from './img/tesoura.png';
+import None from './img/none.png';
 
 export default class fraseDia extends Component {
 
   constructor(props){
     super(props);
-    this.state = { opcaoUsuario : '', opcaoComp: '', resultado: '', opcaoUsuarioImg: '', opcaoCompImg:'' }
+    this.state = { opcaoUsuario : '', opcaoComp: '', resultado: '', opcaoUsuarioImg: None, opcaoCompImg:None}
   }
 
   escolher(opcao){
