@@ -3,7 +3,7 @@ import {
   AppRegistry,
 } from 'react-native';
 
-import App from './app.js';
+import App from './src/views/jogo.js';
 
 
 AppRegistry.registerComponent('jokenpo', () => App);
